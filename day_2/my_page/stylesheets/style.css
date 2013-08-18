@@ -2,13 +2,18 @@ body {
   background-color: #2D2D2D;
 }
 
-body > h1 {
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+.wrapper > h1 {
   text-align: center;
   border-bottom: 1px solid gray;
   color: gray;
 }
 
-body > h2 {
+.wrapper > h2 {
   font-size: 0.9em;
   color: gray;
   margin-bottom: 30px;
