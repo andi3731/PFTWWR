@@ -21,3 +21,5 @@ doc/
 *~
 *.swp
 *.swo
+
+*.log
