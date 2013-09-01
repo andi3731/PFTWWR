@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Stock Exchange Quote Service</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" media="all">
+  <link rel="shortcut icon" type="image/icon" href="http://rubylearning.com/images/favicon.ico">
+</head>
+<body>
+  <div>
+    <h1>Stock Exchange Quote Service</h1>
+
+    <p>Information current as of <%= @stock.row3 %> on <%= @stock.row2 %></p>
+    <p><b><%= @stock.row0 %>'s</b> last trade was - $<%= @stock.row1 %> (increase of <%= @stock.row4 %>)</p>
+    <p>Opened at <%= @stock.row5 %><br> Range for the day $<%= @stock.row7 %> - $<%= @stock.row6 %></p>
+
+    <p><a href="/">Back</a></p>
+  </div>
+  <div id="footer">
+    <p><b>A Fun Sinatra App by Rubylearning</b>.</p>
+  </div>
+</body>
+</html>

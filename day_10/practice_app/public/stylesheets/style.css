@@ -1,0 +1,23 @@
+body {
+  color: #000;
+  background: #f6f6f6 url(http://www.syntacticweb.co.uk/resource/parch.jpg);
+}
+
+h1 {
+  color: #2a1959;
+  border-bottom: 2px solid #2a1959;
+}
+
+h2 {
+  color: #474b94;
+  font-size: 1.2em;
+}
+
+#footer {
+  clear: both;
+  border-top: 1px solid #2a1959;
+  text-align: left;
+  height: 50px;
+  font-size: 70%;
+  width: 100%;
+}
